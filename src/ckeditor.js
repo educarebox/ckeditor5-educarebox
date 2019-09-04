@@ -69,8 +69,8 @@ ClassicEditor.defaultConfig = {
 			'italic',
 			'link',
 			'alignment:left',
-			'alignment:right',
 			'alignment:center',
+			'alignment:right',
 			'alignment:justify',
 			'bulletedList',
 			'numberedList',
@@ -85,7 +85,7 @@ ClassicEditor.defaultConfig = {
 		feeds: [
 			{
 				marker: '@',
-				feed: ['@Barney', '@Lily', '@Marshall', '@Robin', '@Ted'],
+				feed: ['@Crie', '@Sua', '@Lista'],
 				minimumCharacters: 1
 			}
 		]
@@ -102,9 +102,10 @@ ClassicEditor.defaultConfig = {
 		contentToolbar: [
 			'tableColumn',
 			'tableRow',
-			'mergeTableCells'
+			'mergeTableCells',
+			'alignment:center'
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+	language: 'pt-br'
 };
